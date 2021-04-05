@@ -63,7 +63,9 @@ body{
   color: #4f4f4f;
   background-color: #ccc;
 }
-
+section{
+	margin: 0 3%;
+}
 nav{
 	display: flex;
 	justify-content: space-between;
@@ -85,7 +87,6 @@ nav a:hover{
 }
 .BannerContainer{
 	display:flex;
-	margin: 0 3%;
 }
 .banner{
 	background-image: url(https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1653&q=80); 
@@ -111,7 +112,7 @@ nav a:hover{
 button{
 	background-color:#333;
 	color: white;
-	padding: 1%;
+	padding: 1.5%;
 }
 .membership{
 	margin: 0 0 0 2%;
@@ -147,13 +148,39 @@ button{
 	background-color: #ddd;
 	text-align: center;
 	padding: 2% 0;
+	font-size: 1.3rem;
 }
 .services p{
-	font-size: 1.3rem;
 	padding: 2% 3%;
 }
 .services h3{
-	font-size: 1.3rem;
 	font-weight: bold;
 	padding: 2% 0;
 }
+.business{
+	background-color: #ddd;
+	display: flex;
+	margin-bottom: 1%;
+}
+.business img{
+	margin: 3%;
+	width: 90%;
+}
+.businesstext{
+	padding: 4% 2%;
+	
+}
+.businesstext p{
+	font-size: 1.3rem;
+	padding: 2% 0;
+}
+
+footer{
+	background-color:#333;
+	color: white;
+	padding: 1%;
+	margin: 0 3%;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
