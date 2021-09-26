@@ -1,1 +1,186 @@
+/* Add CSS styling here */
+/* CSS Reset */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+/* 	border: 0; */
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+/* 	background: white; */
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+/*General Styles*/
+
+*{
+  box-sizing: border-box; 
+   max-width:100%; 
+   /* border: 1px solid grey;  */
+  margin: 0 auto;
+}
+
+html{
+  font-size: 62.5%; 
+}
+
+body{
+  font-family: Arial, "Helvetica", sans-serif;
+  font-size:2.0rem;
+  line-height: 1.5; 
+  color: #4f4f4f;
+  background-color: #ccc;
+}
+section{
+	margin: 0 3%;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	margin: 2% 3%;
+}
+nav a{
+	background-color: #ddd;
+	color: #333;
+	width: 24%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.6rem;
+	padding: 0.5% 0;
+	text-transform: uppercase;
+}
+nav a:hover{
+	background-color: rgba(104, 104, 104, 0.8);
+	color:white
+}
+.BannerContainer{
+	display:flex;
+}
+.banner{
+	background-image: url(https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1653&q=80); 
+	width: 80%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 60vh;
+	display: flex;
+	align-items: center;
+}
+.bannertext{
+	padding: 1% 2%;
+}
+.banner h1{
+	color: white;
+	font-size: 4rem;
+}
+.banner p{
+	color:white;
+	font-size: 1.5rem;
+}
+button{
+	background-color:#333;
+	color: white;
+	padding: 1.5%;
+}
+.membership{
+	margin: 0 0 0 2%;
+	width: 18%;
+	text-align: center;
+}
+.membership p {
+	padding: 10% 0;
+	font-size: 1.3rem;
+}
+.membership h2{
+	padding: 10% 0;
+	font-size: 2.5rem;
+}
+.membership button{
+	padding: 3% 4%;
+}
+.member1{
+	height: 28vh;
+	background-color: #ddd;
+}
+.member2{
+	height: 28vh;
+	background-color: #ddd;
+}
+.services{
+	display: flex;
+	justify-content: space-between;
+	margin: 2% 3%;
+}
+.services div{
+	width: 24%;
+	background-color: #ddd;
+	text-align: center;
+	padding: 2% 0;
+	font-size: 1.3rem;
+}
+.services p{
+	padding: 2% 3%;
+}
+.services h3{
+	font-weight: bold;
+	padding: 2% 0;
+}
+.business{
+	background-color: #ddd;
+	display: flex;
+	margin-bottom: 1%;
+}
+.business img{
+	margin: 3%;
+	width: 90%;
+}
+.businesstext{
+	padding: 4% 2%;
+	
+}
+.businesstext p{
+	font-size: 1.3rem;
+	padding: 2% 0;
+}
+
+footer{
+	background-color:#333;
+	color: white;
+	padding: 1%;
+	margin: 0 3%;
+	text-align: center;
+	font-size: 1.2rem;
+}
 
